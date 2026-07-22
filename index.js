@@ -1,14 +1,11 @@
-// Array of Makeup and Skincare Objects
+
 const products = [
-    {
-        id: 1,
-        title: "Hydrating Hyaluronic Serum",
-        category: "Skincare",
-        price: "$24.99",
-        rating: "★ 4.8",
-        description: "Deeply hydrates and plumps the skin, leaving a glowing and youthful radiant complexion.",
-        image: "hyaluronic.jpg"
-    },
+    {id: 1,
+    title: "Niacinamide Balance Serum", 
+    category: "Skincare",
+    price: "$17.99", 
+    rating: "★ 4.7", 
+    description: "Controls excess sebum oils and minimizes extended visible pores.", image: "serum.jpg" },
     {
         id: 2,
         title: "Matte Liquid Lipstick",

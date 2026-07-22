@@ -1,5 +1,5 @@
 const skincareProducts = [
-    { id: 1, title: "Hydrating Hyaluronic Serum", category: "Skincare", price: "$24.99", rating: "★ 4.8", description: "Deeply hydrates and plumps the skin, leaving a glowing complexion.", image: "/hyaluronic.jpg" },
+    
     { id: 2, 
     title: "Vitamin C Brightening Cream", 
     category: "Skincare",
