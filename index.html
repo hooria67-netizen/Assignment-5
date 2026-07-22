@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glow & Care Store - Home</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">Glow & Care</div>
+        <ul class="nav-links">
+            <li><a href="./index.html" class="active">Home</a></li>
+            <li><a href="./makeup.html">Makeup</a></li>
+            <li><a href="./skincare.html">Skincare</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+        <!-- Wishlist & Cart Counters -->
+        <div class="nav-icons">
+            <div class="icon-badge">
+                <span class="icon-emoji">❤️</span>
+                <span id="wishlist-count" class="badge">0</span>
+            </div>
+            <div class="icon-badge">
+                <span class="icon-emoji">🛒</span>
+                <span id="cart-count" class="badge">0</span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Hero Banner -->
+    <header class="hero">
+        <h1>Welcome to Glow & Care Boutique</h1>
+        <p>Discover our premium selection of dynamic Makeup & Skincare essentials.</p>
+        <button class="shop-now-btn">Explore Collection</button>
+    </header>
+
+    <!-- Main Dynamic Products Section -->
+    <main class="products-section">
+        <h2 class="section-title">Trending Products</h2>
+        <div class="products-container" id="all-products">
+            <!-- JavaScript data yahan display hoga -->
+        </div>
+    </main>
+
+    <script src="./index.js"></script>
+</body>
+</html>

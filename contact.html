@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glow & Care Store - Contact Us</title>
+    <link rel="stylesheet" href="./contact.css">
+</head>
+<body>
+
+
+    <nav class="navbar">
+        <div class="logo">Glow & Care</div>
+        <ul class="nav-links">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./makeup.html">Makeup</a></li>
+            <li><a href="./skincae.html">Skincare</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./contact.html" class="active">Contact</a></li>
+        </ul>
+        <div class="nav-icons">
+            <div class="icon-badge"><span class="icon-emoji">❤️</span><span class="badge">0</span></div>
+            <div class="icon-badge"><span class="icon-emoji">🛒</span><span class="badge">0</span></div>
+        </div>
+    </nav>
+
+    
+    <main class="contact-section">
+        <div class="contact-hero">
+            <h2>Get In Touch</h2>
+            <p>We would love to hear from you! Reach out for queries, feedback, or support.</p>
+        </div>
+
+        <div class="contact-wrapper">
+
+            <div class="contact-info-container">
+                <h3>Contact Information</h3>
+                <p class="info-subtitle">Fill out the form or reach us via our official channels listed below.</p>
+                
+                <div class="info-card">
+                    <div class="info-icon">📍</div>
+                    <div class="info-text">
+                        <h4>Our Location</h4>
+                        <p>123 Beauty Boulevard, Karachi East, Pakistan</p>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-icon">📞</div>
+                    <div class="info-text">
+                        <h4>Call or WhatsApp</h4>
+                        <p>+92 3558900167</p>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-icon">✉️</div>
+                    <div class="info-text">
+                        <h4>Email Support</h4>
+                        <p>support@glowandcare.com</p>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-icon">⏰</div>
+                    <div class="info-text">
+                        <h4>Business Hours</h4>
+                        <p>Mon - Sat: 9:00 AM - 9:00 PM</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="contact-form-container">
+                <form id="contactForm" class="contact-form" onsubmit="handleFormSubmit(event)">
+                    <div class="form-group">
+                        <label for="userName">Full Name</label>
+                        <input type="text" id="userName" placeholder="John Doe" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="userEmail">Email Address</label>
+                        <input type="email" id="userEmail" placeholder="example@mail.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="msgSubject">Subject</label>
+                        <input type="text" id="msgSubject" placeholder="Product Query / Feedback" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="userMessage">Your Message</label>
+                        <textarea id="userMessage" rows="5" placeholder="Write your message here..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <script src="./contact.js"></script>
+</body>
+</html>
