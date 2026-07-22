@@ -7,7 +7,7 @@ const products = [
         price: "$24.99",
         rating: "★ 4.8",
         description: "Deeply hydrates and plumps the skin, leaving a glowing and youthful radiant complexion.",
-        image: "/hyaluronic.jpg"
+        image: "hyaluronic.jpg"
     },
     {
         id: 2,
