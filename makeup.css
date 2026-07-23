@@ -278,7 +278,7 @@ body {
     white-space: nowrap !important;
     padding: 0 10px !important;
     gap: 5px !important;
-    -webkit-overflow-scrolling: touch !important; /* Smooth mobile swipe */
+    -webkit-overflow-scrolling: touch !important;
   }
 
 

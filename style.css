@@ -272,12 +272,9 @@ body {
 .buy-btn:hover {
     background: #b83b5e;
 }
-/* ==================================================== */
-/* MOBILE VIEW CONFIGURATION (FOR SCROLLABLE NAVBAR)  */
-/* ==================================================== */
 @media screen and (max-width: 768px) {
   
-  /* Navbar layout ko ek single line mein control karne ke liye */
+
   .navbar {
     display: flex !important;
     flex-direction: row !important;
@@ -288,7 +285,7 @@ body {
     box-sizing: border-box !important;
   }
 
-  /* Logo ko do lines mein break hone se rokne ke liye */
+
   .logo {
     font-size: 18px !important;
     white-space: nowrap !important;
@@ -296,7 +293,7 @@ body {
     margin-right: 10px !important;
   }
 
-  /* Links ko horizontal swipe aur ek line mein set karne ke liye */
+
   .nav-links {
     display: flex !important;
     flex-direction: row !important;
@@ -304,10 +301,10 @@ body {
     white-space: nowrap !important;
     padding: 0 10px !important;
     gap: 5px !important;
-webkit-overflow-scrolling: touch !important; /* Smooth mobile swipe */
+    -webkit-overflow-scrolling: touch !important; /* Smooth mobile swipe */
   }
 
-  /* Scrollbar ko chhupane ke liye taaki look clean rahe */
+
   .nav-links::-webkit-scrollbar {
     display: none !important;
   }
@@ -317,7 +314,7 @@ webkit-overflow-scrolling: touch !important; /* Smooth mobile swipe */
     padding: 6px 10px !important;
   }
 
-  /* Icons section ko right side par fix rakhne ke liye */
+
   .nav-icons {
     display: flex !important;
     gap: 15px !important;
